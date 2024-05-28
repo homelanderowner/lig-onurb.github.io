@@ -1,5 +1,24 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.himage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 th{
-  font-size: 10px;
+  font-size: 100px;
 }
 thead, th, td{
   border: 1px solid;
