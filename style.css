@@ -3,8 +3,9 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-h1{
-  font-size: 35px;
+.gh{
+  border: 10px black;
+  background-color: yellow;
   text-align: center;
   font-family: sans-serif;
 }
@@ -45,6 +46,11 @@ table{
   width: 100%;
   border-collapse: collapse;
   font-family: sans-serif;
+}
+caption{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
 }
 thead, th, td{
   border: 2px solid;
