@@ -5,6 +5,17 @@ thead, th, td{
   border: 1px solid;
 }
 .responsive{
+  max-width: 100%;
   max-height: 100%;
-  height: auto;
+  display: block;
+}
+.box{
+  width: 250px;
+  border: 5px solid black;
+}
+.box.large{
+  height: 300px;
+}
+.box.small{
+  height: 10px;
 }
